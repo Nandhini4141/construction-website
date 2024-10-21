@@ -1,0 +1,149 @@
+/* General styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+}
+
+/* Header */
+header {
+    background-color: rgb(177, 152, 71);
+    color: white;
+    padding: 15px 0;
+    text-align: center;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header nav ul {
+    list-style-type: none;
+}
+
+header nav ul li {
+    display: inline-block;
+    margin-left: 20px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.1rem;
+}
+
+/* Hero Section */
+.hero {
+    background-image: url('C:\Users\User\Pictures\New folder\KM.jpeg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: black;
+}
+
+.hero h2 {
+    font-size: 3rem;
+}
+
+.hero p {
+    font-size: 1.5rem;
+}
+
+.btn {
+    background-color: #f4a261;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 20px;
+    font-size: 1.2rem;
+}
+
+/* Section styling */
+section {
+    padding: 60px 0;
+}
+
+.about, .services, .projects, .contact {
+    background-color: #f4f4f4;
+}
+
+.about h2, .services h2, .projects h2, .contact h2 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+}
+
+.service-box {
+    margin: 20px;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: inline-block;
+    width: 30%;
+    text-align: center;
+}
+
+/* Projects */
+.project-gallery {
+    width: 100%;
+    display: flex;
+    justify-content: space-around ;
+}
+
+.project img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.project h6 {
+    text-align: center;
+    margin-top: 10px;
+}
+
+/* Contact form */
+#contact-form input, #contact-form textarea {
+    width: 100%;
+    padding: 15px;
+    margin: 10px 0;
+}
+
+#contact-form button {
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+#form-messages {
+    margin-top: 20px;
+    color: green;
+}
+
+/* Footer */
+footer {
+    background-color: rgb(177, 152, 71);
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
